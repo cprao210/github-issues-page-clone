@@ -55,9 +55,9 @@ const HeaderContainer = () => {
           </span>
         </RepoTitleInfo>
         <RightNav>
-          <RepoDetail tag="Watch" value={"6.7k"} />
-          <RepoDetail tag="Star" value={8743} />
-          <RepoDetail tag="Fork" value={45734} />
+          <RepoDetail tag="Watch " value={"6.7k"} />
+          <RepoDetail tag="Star " value={8743} />
+          <RepoDetail tag="Fork " value={45734} />
         </RightNav>
       </Navmenus>
 

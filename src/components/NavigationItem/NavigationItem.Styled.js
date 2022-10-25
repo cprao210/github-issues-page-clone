@@ -11,9 +11,6 @@ export const NavigationItemWrapper = styled.div`
   background-color: ${(props) => props.selected && "#fff"};
   border-color: ${(props) => props.selected && "#e36209 #e1e4e8 transparent"};
   cursor: pointer;
-  &:hover {
-    color: #000;
-  }
 `;
 
 export const NavigationItemValue = styled.span`

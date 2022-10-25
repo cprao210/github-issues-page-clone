@@ -20,18 +20,11 @@ const IssuesTableHeader = () => {
   return (
     <IssuesTableHeaderContainer>
       <OpenClosedIssueDetails>
-        <OpenClosedIssueAnchor
-          selected
-          // href={`${WEB_URL}/${OWNER}/${REPO}/issues?q=is%3Aopen+is%3Aissue`}
-        >
+        <OpenClosedIssueAnchor selected>
           <IssueOpenedSVG />
           253 Open
         </OpenClosedIssueAnchor>
-        <OpenClosedIssueAnchor
-          style={{ marginLeft: "10px" }}
-          // href={`${WEB_URL}/${OWNER}/${REPO}/issues?q=is%3Aopen+is%3Aissue`}
-        >
-          {/* <CompletedSVG color="#586069" hoverColor="#24292e" /> */}
+        <OpenClosedIssueAnchor style={{ marginLeft: "10px" }}>
           6378 closed
         </OpenClosedIssueAnchor>
       </OpenClosedIssueDetails>

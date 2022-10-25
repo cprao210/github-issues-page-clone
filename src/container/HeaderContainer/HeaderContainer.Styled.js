@@ -4,7 +4,6 @@ export const Nav = styled.nav`
   background-color: #fafbfc;
   border-bottom: 2px solid #e1e4e8;
   width: 100%;
-  -webkit-transition: height 0.2s ease-in-out;
   transition: height 0.2s ease-in-out;
   height: 89px;
   margin: 0 auto;
@@ -12,9 +11,7 @@ export const Nav = styled.nav`
   @media (max-width: 820px) {
     height: 77px;
   }
-  @media (max-width: 600px) {
-    height: 220px;
-  }
+
   @media (max-width: 600px) {
     height: 240px;
   }
@@ -33,7 +30,6 @@ export const Navmenus = styled.div`
   }
   .heading {
     color: rgb(3, 102, 214);
-    text-decoration: none;
     font-size: 18px;
   }
 `;

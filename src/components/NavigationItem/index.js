@@ -22,9 +22,7 @@ const NavigationItem = ({ items }) => {
       <NavigationItemAnchor href={items.url}>{items.name}</NavigationItemAnchor>
       {items.value ? (
         <NavigationItemValue>{items.value}</NavigationItemValue>
-      ) : (
-        <span>{items.value}</span>
-      )}
+      ) : null}
     </NavigationItemWrapper>
   );
 };

@@ -1,9 +1,7 @@
-/* eslint-disable camelcase */
 import React from "react";
 import styled from "styled-components";
 import Labels from "../Labels";
 import IssueOpenedSVG from "../svg/IssueOpenedSVG";
-// import { Link } from "react-router-dom";
 
 const IssueOpenedIconWrapper = styled.div`
   padding: 8px 0px 0px 16px;
@@ -66,7 +64,6 @@ const IssueOpenedBy = styled.div`
 `;
 
 const Issue = ({ issue }) => {
-  console.log(issue);
   const getMsDifference = (date) => new Date() - new Date(date);
 
   const getHrDiff = (date) =>
@@ -92,14 +89,7 @@ const Issue = ({ issue }) => {
           <IssueOpenedSVG color="#28a745" />
         </IssueOpenedIconWrapper>
         <IssueAnchorWithLabel>
-          <IssueAnchor
-            //   to={`${number}`}
-            color="#24292e"
-            //   href={`${WEB_URL}/${OWNER}/${REPO}/issues/${number}`}
-          >
-            {" "}
-            {issue.title}
-          </IssueAnchor>
+          <IssueAnchor color="#24292e"> {issue.title}</IssueAnchor>
           <Labels labels={issue.labels} />
         </IssueAnchorWithLabel>
       </IssueAnchorNTitleWrapper>

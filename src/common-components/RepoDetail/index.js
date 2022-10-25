@@ -13,14 +13,16 @@ const RepoDetail = ({ tag, value }) => {
   return (
     <RepoDetailContainer>
       <RepoDetailTagContainer>
-        {tag === "Watch" && <WatchSVG />}
-        {tag === "Star" && <StarSVG />}
-        {tag === "Fork" && <ForkSVG />}
+        {tag === "Watch " && <WatchSVG />}
+        {tag === "Star " && <StarSVG />}
+        {tag === "Fork " && <ForkSVG />}
 
         {tag}
-        <Caret />
+        <span className="nav-value"> {value}</span>
       </RepoDetailTagContainer>
-      <RepoDetailValueContainer>{value}</RepoDetailValueContainer>
+      <RepoDetailValueContainer>
+        <Caret />
+      </RepoDetailValueContainer>
     </RepoDetailContainer>
   );
 };
