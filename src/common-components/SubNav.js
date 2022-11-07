@@ -141,7 +141,6 @@ const SubNav = () => (
             type="text"
             defaultValue="is:issue is:open "
           />
-          {/* <SearchSVG /> */}
         </SearchContainer>
       </div>
 
@@ -152,12 +151,10 @@ const SubNav = () => (
         valueBackgroundColor="#ffffff"
         tagPadding="9px 14px"
         valuePadding="9px 14px"
-        // tagHref={`${WEB_URL}/${OWNER}/${REPO}/labels`}
-        // valueHref={`${WEB_URL}/${OWNER}/${REPO}/milestones`}
       />
     </FilterNSearchContainer>
 
-    <a className="newIssue" href={"#"}>
+    <a href="#n" className="newIssue">
       New issue
     </a>
   </SubNavContainer>

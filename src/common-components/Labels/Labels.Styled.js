@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Label = styled.span`
+  display: inline-block;
   background-color: #${(props) => (props.bgColor ? props.bgColor : "#fff")};
   border-radius: 2em;
   box-shadow: inset 0 -1px 0 rgba(27, 31, 35, 0.12);

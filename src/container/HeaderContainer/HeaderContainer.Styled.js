@@ -6,7 +6,6 @@ export const Nav = styled.nav`
   width: 100%;
   transition: height 0.2s ease-in-out;
   height: 89px;
-  margin: 0 auto;
   margin-bottom: 20px;
   @media (max-width: 820px) {
     height: 77px;

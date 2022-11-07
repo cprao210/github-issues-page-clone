@@ -46,9 +46,7 @@ const HeaderContainer = () => {
       <Navmenus row="first">
         <RepoTitleInfo>
           <RepoLogoSVG />
-          <span className="heading" color="#0366d6">
-            facebook
-          </span>
+          <span className="heading">facebook</span>
           <PathDivider>/</PathDivider>
           <span className="heading" style={{ fontWeight: "bold" }}>
             react
